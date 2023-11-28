@@ -1,4 +1,4 @@
-const message = document.getElementById("message")
+const messageNode = document.getElementById("message")
 
 const render = (message = "", node = messageNode) => {
     messageNode.textContent = message
